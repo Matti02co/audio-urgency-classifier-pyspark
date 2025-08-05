@@ -24,6 +24,8 @@ The report folder contains the paper related to this project.
 
 The src folder contains the used functions.
 
+`requirements.txt` contains the dependencies.
+
 The notebook folder contains the notebooks explaining the entire experimentation:
 
 - FullSamplesTest.ipynb --> Training/testing on complete samples (Librosa + Parselmouth + TF-IDF)
@@ -66,17 +68,6 @@ If you want to **rebuild the samples from raw data**, add the following to the s
 - Best performance was achieved using **combined audio + text features**, with up to **100% accuracy**.
 - Logistic Regression and Random Forest consistently outperformed GBT.
 - Audio-only and text-only features were also effective, but slightly less accurate.
-
----
-
-## Dependencies
-
-- Python 3.x
-- PySpark
-- Librosa
-- Parselmouth (Praat Python bindings)
-- scikit-learn
-- Google Colab (for ease of use with Drive)
 
 ---
 

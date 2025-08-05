@@ -1,0 +1,6 @@
+pyhton 3.x
+PySpark
+Librosa
+Parselmouth (Praat python bindings)
+scikit-learn
+Google Colab (for easy use with drive)
