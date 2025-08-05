@@ -20,10 +20,17 @@ This project focuses on detecting urgency in Italian spoken audio using machine 
 
 ## Project Structure
 
-The repository contains:
+The report folder contains the paper related to this project.
+
+The src folder contains the used functions.
+
+The notebook folder contains the notebooks explaining the entire experimentation:
 
 - FullSamplesTest.ipynb --> Training/testing on complete samples (Librosa + Parselmouth + TF-IDF)
 - LibrosaParselmouthVStf_idf.ipynb --> Comparison of audio-only vs. text-only feature performance
+
+The data folder contains the used samples:
+
 - samplesCompleti.pkl --> Samples with full features (audio + text)
 - samplesSoloLibrosaParselmouth.pkl --> Samples with only audio features
 - samplesSoloTFIDF.pkl --> Samples with only text features
