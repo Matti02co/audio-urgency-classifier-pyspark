@@ -82,5 +82,6 @@ The accompanying paper/report is released under the
 
 ## Author
 
-Created by Mattia Cocco as part of a research project on speech-based urgency detection in Italian.  
+Created by Mattia Cocco as part of a [research project on speech-based urgency detection in Italian](https://github.com/Matti02co/BigData).  
+
 Feel free to fork.
