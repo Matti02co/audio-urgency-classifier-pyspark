@@ -1,4 +1,4 @@
-# Audio Urgency Classifier with PySpark
+# Audio Urgency Classifier with PySpark (Big Data project 2025)
 
 This project focuses on detecting urgency in Italian spoken audio using machine learning models from PySpark's `pyspark.ml` library. A custom dataset was created, consisting of audio clips with and without urgency, each with multilingual transcriptions. Features were extracted from both audio (MFCC, pitch, RMSE) and text (TF-IDF), and used to train and evaluate three classifiers: Random Forest, Logistic Regression, and Gradient-Boosted Trees.
 
@@ -82,6 +82,6 @@ The accompanying paper/report is released under the
 
 ## Author
 
-Created by Mattia Cocco as part of a [research project on speech-based urgency detection in Italian](https://github.com/Matti02co/BigData).  
+Created by Mattia Cocco as part of the [Big Data project on speech-based urgency detection in Italian](https://github.com/Matti02co/BigData).  
 
 Feel free to fork.
